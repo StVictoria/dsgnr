@@ -1,0 +1,77 @@
+@import '../../../styles/vars'
+
+.footer
+    width: 100%
+    color: $white
+    background: $black
+    padding: 6.7vw 6vw
+
+.mainBlock
+    display: flex
+    justify-content: space-between
+    margin-bottom: 5.8vw
+
+.mainInfo
+    width: 50%
+    padding-right: 7vw
+
+.logo
+    width: 7vw
+    height: auto
+
+.projectDescr
+    margin: 3.6vw 0 4.4vw 0
+
+.emailButton
+    position: relative
+    width: 88%
+    text-align: center
+    color: $white
+    border: 2px solid $primary
+    padding: 1.5vw 2vw
+    transition: 0.6s
+    &:hover
+        background-color: $primary
+        border: 2px solid $white
+
+.emailIcon
+    position: absolute
+    top: 50%
+    left: 2vw
+    margin-top: -0.8vw
+    width: 1.7vw
+    height: 1.7vw
+    background: url('../../../assets/sms-notification.svg') center center / contain no-repeat
+
+.links
+    display: flex
+    width: 50%
+    padding-left: 7vw
+    .listWrapper:not(:last-child)
+        margin-right: 7vw
+
+.linksTitle
+    margin-bottom: 2vw
+
+.linksList > li
+    margin-bottom: 0.8vw
+
+.info
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin-bottom: 2vw
+
+.legal a:not(:last-child)
+    margin-right: 4vw
+
+.socials
+    display: flex
+    align-items: center
+    > a:not(:last-child)
+        margin-right: 2.8vw
+
+.copyrights
+    width: 100%
+    text-align: center
+    opacity: 0.2
