@@ -2,6 +2,7 @@ import '../styles/globals.sass'
 import { Inter } from 'next/font/google'
 import Header from '@/components/base/Header'
 import Footer from '@/components/base/Footer'
+import MainBanner from '@/components/base/MainBanner'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,7 +16,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Header />
         {children}
-        <section>BANNER</section>
+        <MainBanner />
         <Footer />
       </body>
     </html>
