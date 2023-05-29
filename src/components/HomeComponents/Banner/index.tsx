@@ -1,6 +1,7 @@
+import { FC } from 'react'
 import style from './style.module.sass'
 
-const Banner = () => {
+const Banner: FC = () => {
   return (
     <section className={style.banner}>
       <div className={style.shape1} />

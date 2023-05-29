@@ -1,11 +1,12 @@
-import Banner from '@/components/HomeComponents/Banner';
+import Banner from '@/components/HomeComponents/Banner'
+import Features from '@/components/HomeComponents/Features'
 
 export default function Home() {
   return (
     <main>
       <Banner />
-      {/* <section>Features</section>
-      <section>About us</section>
+      <Features />
+      {/* <section>About us</section>
       <section>Our works</section>
       <section>Proccess</section>
       <section>Testimonials</section>
